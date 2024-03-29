@@ -9,6 +9,13 @@
  * @since 0.1.0
  */
 public class Greetings {
+	
+	/**
+	 * This Greetings() method is a no-args constructor.
+	 */
+	public Greetings(){
+
+	}
 
 	/**
 	 * Set <code>main()</code> method to the class.
