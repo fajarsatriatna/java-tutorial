@@ -8,7 +8,8 @@
  * @since 0.1.0
  */
 public class DefaultValue {
-    
+    /*
+    */    
     /*
     There would have been a problem if variable bonus was not a class member 
     as the compiler never assigns default values to an uninitialized local variable.
