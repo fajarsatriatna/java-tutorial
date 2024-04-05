@@ -40,5 +40,19 @@ public class Precedence {
          * ++ operator has higher precedence than +.
          */
         System.out.println("d++ + e is " + (d++ + e));
+
+        int f = 10;
+        int g = 5;
+
+        /**
+         * Take note that prefer using + over ().
+         * When using the + operator inside <code>System.out.println()</code> make sure to do addition using parenthesis.
+         * If we write something before doing addition, then string addition takes place, that is, associativity of addition-
+         * is left to right, and hence integers are added to a string first producing a string, and string objects-
+         * concatenate when using +.
+         * Therefore it can create unwanted results.
+         */
+        System.out.println("f + g is " + f + g);
+        System.out.println("f + g is " + (f + g));
     }
 }
