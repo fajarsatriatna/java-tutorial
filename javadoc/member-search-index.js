@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"TernaryOperator","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"TernaryOperator","l":"TernaryOperator()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"<Unnamed>","c":"InstanceofOperator","l":"InstanceofOperator()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"InstanceofOperator","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
