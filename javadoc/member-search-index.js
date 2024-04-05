@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"LogicalOperators","l":"LogicalOperators()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"LogicalOperators","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
+memberSearchIndex = [{"p":"<Unnamed>","c":"TernaryOperator","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"TernaryOperator","l":"TernaryOperator()","u":"%3Cinit%3E()"}];updateSearchResults();
