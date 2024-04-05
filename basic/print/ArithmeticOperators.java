@@ -4,12 +4,12 @@
  * @author Fajar Satriatna
  * @since 0.1.0
  */
-public class Arithmetic {
+public class ArithmeticOperators {
 
     /**
-     * This Arithmetic() method is a no-args constructor.
+     * This ArithmeticOperators() method is a no-args constructor.
      */
-    public Arithmetic() {
+    public ArithmeticOperators() {
 
     }
 

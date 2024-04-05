@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"Comments"},{"p":"<Unnamed>","l":"DefaultValue"},{"p":"<Unnamed>","l":"Greetings"},{"p":"<Unnamed>","l":"Immutable"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"ArithmeticOperators"},{"p":"<Unnamed>","l":"Comments"},{"p":"<Unnamed>","l":"DefaultValue"},{"p":"<Unnamed>","l":"Greetings"},{"p":"<Unnamed>","l":"Immutable"},{"p":"<Unnamed>","l":"UnaryOperators"}];updateSearchResults();
