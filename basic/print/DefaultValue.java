@@ -1,82 +1,102 @@
 /**
- * Print default value of data type into the console.
- * 
+ * DefaultValue class describes what default value of data types is.
  * <p>
- * It shows how each data type variable has its own default value.
+ * When a variable is declared but not initialized, it is assigned a default valuebased on its data type.
+ * The default values for the primitive data types in Java are as follows:
+ * <ul>
+ * <li>byte: 0</li>
+ * <li>short: 0</li>
+ * <li>int: 0</li>
+ * <li>long: 0L</li>
+ * <li>float: 0.0f</li>
+ * <li>double: 0.0d</li>
+ * <li>char: '\u0000' (null character)</li>
+ * <li>boolean: false</li>
+ * </ul>
+ * <p>
+ * It is important to note that these default values are only assigned
+ * if the variable is not explicitly initialized with a value.
+ * If a variable is initialized with a value, that value will be used instead of the default.
+ * <p>
+ * There would have been a problem if age and others are not class variables
+ * as the compiler never assigns default values to uninitialized local variables
+ * and it causes an error when local variables have never been initialized.
  * 
- * @author Fajar Satriatna
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #DefaultValue
+ * @see         #age
+ * @see         #employeeNumber
+ * @see         #outcomePerMonth
+ * @see         #salaryPerMonth
+ * @see         #moneyOnPayPal
+ * @see         #savings
+ * @see         #driverLicense
+ * @see         #isMale
+ * @see         #address
  */
 public class DefaultValue {
-       
-    /*
-    There would have been a problem if variable bonus was not a class member 
-    as the compiler never assigns default values to an uninitialized local variable.
-    It causes an error when a local variable variable has never been initialized.
-    For example:
-    int bonus;System.out.println("My Bonus is " + bonus);
-    */
 
    /**
-    * This DefaultValue() method is a no-args constructor.
+    * Class constructor.
     */
    public DefaultValue(){
 
    }
 
     /**
-     * This age variable has default value: 0.
+     * Age of an employee.
      */
     public static byte age;
     
     /**
-     * This employeeNumber variable has default value: 0.
+     * Unique employee number.
      */
     public static short employeeNumber;
 
     /**
-     * This outcomePerMonth variable has default value: 0.
+     * Outcome per month which an employee earns.
      */
     public static int outcomePerMonth;
 
     /**
-     * This salaryPerMonth variable has default value: 0.
+     * Salary per month which an employee earns.
      */
     public static long salaryPerMonth;
 
     /**
-     * This moneyOnPayPal variable has default value: 0.0.
+     * Amount of money spent on PayPal.
      */
     public static float moneyOnPayPal;
 
     /**
-     * This savings variable has default value: 0.0.
+     * Amount of money spent in a bank.
      */
     public static double savings;
 
     /**
-     * This driverLicense variable has default value: ''.
+     * Driver License of an employee.
      */
     public static char driverLicense;
 
     /**
-     * This isMale variable has default value: false.
+     * Gender of an employee.
      */
     public static boolean isMale;
 
     /**
-     * This address variable has default value: null.
+     * Address of an employee.
      */
     public static String address;
-    
-    /**
-	 * Set <code>main()</code> method to the class.
-	 * 
+
+	/**
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args  Array-typed argument to retrieve input from the console.
 	 */
     public static void main(String[] args) {
         
@@ -89,6 +109,5 @@ public class DefaultValue {
         System.out.println("My driver license is " + driverLicense);
         System.out.println("My gender is " + isMale);
         System.out.println("My address is " + address);
-
     }
 }

@@ -1,30 +1,38 @@
 /**
- * Perform instanceof operators in Java.
+ * InstanceofOperator class performs instanceof operator in Java.
+ * <p>
+ * In Java, instanceof is a keyword used for checking if a reference variable
+ * contains a given type of object reference or not.
+ * Following is a Java program to show different behaviors of instanceof.
+ * Henceforth it is known as a comparison operator where the instance is getting compared
+ * to type returning boolean true or false as in Java we do not have 0 and 1 boolean return types.
  * 
- * @author Fajar Satriatna
- * @see Human
- * @see Man
- * @see Woman
- * @see Period
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #InstanceofOperator
+ * @see         Human
+ * @see         Man
+ * @see         Woman
+ * @see         Woman
+ * @see         Period
  */
 public class InstanceofOperator {
     
     /**
-     * This InstanceofOperator() method is a no-args constructor.
+     * Class constructor.
      */
     public InstanceofOperator() {
 
     }
     
     /**
-	 * Set <code>main()</code> method to the class.
-	 * 
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args	Array-typed argument to retrieve input from the console.
 	 */
     public static void main(String[] args) {
 
@@ -39,22 +47,24 @@ public class InstanceofOperator {
 }
 
 /**
- * This is parent class for Man and Woman class.
+ * Human class is designed to create human object.
  */
 class Human {
 
 }
 
 /**
- * This is subclass derived from human class.
+ * Man class is designed to create man object.
+ * This is a subclass derived from Human class.
  */
 class Man extends Human {
 
 }
 
 /**
- * This is subclass derived from human class.
- * It also implements period interface.
+ * Woman class is designed to create woman object.
+ * This is a subclass derived from Human class.
+ * This implements Period interface.
  */
 class Woman extends Human implements Period{
 
@@ -62,7 +72,7 @@ class Woman extends Human implements Period{
 
 
 /**
- * This is interface which is implemented by woman class.
+ * Period interface is designed to implement abstract method.
  */
 interface Period {
 

@@ -1,40 +1,46 @@
 /**
- * Perform unary operators in Java.
+ * UnaryOperators class describes what unary operators is in Java.
+ * <p>
+ * Java unary operators are the types that need only one operand to perform any operation like increment, decrement, negation, etc.
+ * It consists of various arithmetic, logical and other operators that operate on a single operand.
+ * <p>
+ * Unary operators consist of +, ++, -, --, ~ (bitwise complement), and !.
  * 
- * @author Fajar Satriatna
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #UnaryOperators
  */
 public class UnaryOperators {
     
     /**
-     * This UnaryOperators() method is a no-args constructor.
+     * Class constructor.
      */
     public UnaryOperators() {
 
     }
     
     /**
-	 * Set <code>main()</code> method to the class.
-	 * 
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args	Array-typed argument to retrieve input from the console.
 	 */
     public static void main(String[] args) {
 
-        /**
-         * Unary operators for number: +, ++, -, and --.
-         * 
-         * Example:
-         * 
-         * (+)10 and -20.
-         */
         int a = 10;
         int b = -20;
 
         System.out.println("a + b is " + (a + b));
+
+        /**
+         * You can convert positive to negative number.
+         */
+        a = -a;
+
+        System.out.println("a is converted to minus becoming " + a);
 
         int c = 5;
         int d = 7;
@@ -53,13 +59,17 @@ public class UnaryOperators {
         System.out.println("++c is " + ++c);
         System.out.println("d-- is " + d--);
         System.out.println("--d is " + --d);
+
+        /**
+         * Bitwise complement operator (~) returns the one's complement representation of the input value or operand
+         */
+        int e = 5;
+        e = ~e;
+
+        System.out.println("bitwise complement of 5 is " + e);
         
         /**
-         * Logical ! (not) operator is for inverting a boolean value.
-         * 
-         * Example:
-         * 
-         * !true = false and !false = true.
+         * Logical not (!) operator is used to convert true to false or vice versa.
          */
         System.out.println("!true is " + !true);
         System.out.println("!false is " + !false);

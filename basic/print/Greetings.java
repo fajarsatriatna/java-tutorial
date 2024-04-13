@@ -1,30 +1,30 @@
 /**
- * Print value of String data type into the console.
- * 
+ * Greetings class helps user recognize the use of print() and println().
  * <p>
- * You can add as many print() or println() methods as you want.
- * It helps you to display value in console.
+ * User can add as many print() or println() methods as user wants.
+ * It helps user display value in console.
  * 
- * @author Fajar Satriatna
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #Greetings
  */
 public class Greetings {
 	
 	/**
-	 * This Greetings() method is a no-args constructor.
+	 * Class constructor.
 	 */
 	public Greetings(){
 
 	}
-
+	
 	/**
-	 * Set <code>main()</code> method to the class.
-	 * 
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args  Array-typed argument to retrieve input from the console.
 	 */
 	public static void main(String[] args) {
 
@@ -35,7 +35,8 @@ public class Greetings {
 		System.out.println("My name is Fajar!");
 		
 		/**
-		 * This print() method is also used to display value from left to right without adding new line of code.
+		 * This print() method is also used to display value from left to right
+		 * without adding new line of code.
 		 */
 		System.out.print("This is ");
 		System.out.print("how print() works!");

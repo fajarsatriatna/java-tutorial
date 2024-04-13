@@ -1,45 +1,46 @@
 /**
- * Perform assignment operators in Java.
+ * AssignmentOperators class shows how to use these kind of operators.
+ * <p>
+ * Compound statement is a statement to make operation become shorter.
+ * There are assignment operators including:
+ * <ul>
+ * <li>-= operator is used to subtract value. it is the same as a = a - 3</li>
+ * <li>*= operator is used to multiply value. it is the same as a = a * 4</li>
+ * <li>/= operator is used to divide value. it is the same as a = a / 2</li>
+ * <li>%= operator is used to assign module to find the remainder when one integer is divided by another.
+ * It is the same as a = a % 2</li>
+ * </ul>
  * 
- * @author Fajar Satriatna
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #AssignmentOperators
  */
 public class AssignmentOperators {
     
     /**
-     * This AssignmentOperators() method is a no-args constructor.
+     * Class constructor.
      */
     public AssignmentOperators() {
         
     }
-    
+
     /**
-	 * Set <code>main()</code> method to the class.
-	 * 
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args	Array-typed argument to retrieve input from the console.
 	 */
     public static void main(String[] args) {
         
         /**
-         * = operator is used to assign value to variable.
+         *Assignment operator (=) is used to assign value to a variable.
          */
         int a = 5;
-
         System.out.println("a is " + a);
 
-        /**
-         * Compound statement is a statement to make operation become shorter.
-         * 
-         * += operator is used to add value. it is the same as a = a + 10.
-         * -= operator is used to subtract value. it is the same as a = a - 3.
-         * *= operator is used to multiply value. it is the same as a = a * 4.
-         * /= operator is used to divide value. it is the same as a = a / 2.
-         * %= operator is used to assign module to find the remainder when one integer is divided by another. it is the same as a = a % 2.
-         */
         a += 10;
         System.out.println("a =+ 10 is " + a);
 

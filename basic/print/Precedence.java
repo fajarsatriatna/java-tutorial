@@ -1,26 +1,29 @@
 /**
- * Show precedence operators in Java.
+ * Precedence class shows how operator precedence works in Java.
+ * <p>
+ * Operator precedence determines the order in which the operators in an expression are evaluated.
  * 
- * @author Fajar Satriatna
- * @since 0.1.0
+ * @author      Fajar Satriatna
+ * @version     0.1.0
+ * @since       0.1.0
+ * @see         #Precedence
  */
 public class Precedence {
     
     /**
-     * This Precedence() method is a no-args constructor.
+     * Class constructor.
      */
     public Precedence() {
 
     }
     
     /**
-	 * Set <code>main()</code> method to the class.
-	 * 
+	 * Executes Java program.
 	 * <p>
 	 * This <code>main()</code> method is a crucial method where JVM will look for the first time application boostrapped.
 	 * The compiler executes the codes starting always from the main function.
 	 * 
-	 * @param args	A command-line argument array to retrieve input from the console.
+	 * @param args	Array-typed argument to retrieve input from the console.
 	 */
     public static void main(String[] args) {
 
@@ -29,7 +32,7 @@ public class Precedence {
         int c = 9;
 
         /**
-         * / operator has higher precedence than +.
+         * Multiplicative operators (/,*, and %) have higher precedence than +.
          */
         System.out.println("a + b / c is " + (a + b / c));
 
@@ -37,7 +40,7 @@ public class Precedence {
         int e = 8;
 
         /**
-         * ++ operator has higher precedence than +.
+         * Postfix increment and decrement operators (++ and --) have higher precedence than +.
          */
         System.out.println("d++ + e is " + (d++ + e));
 
@@ -46,9 +49,10 @@ public class Precedence {
 
         /**
          * Take note that prefer using + over ().
+         * <p>
          * When using the + operator inside <code>System.out.println()</code> make sure to do addition using parenthesis.
-         * If we write something before doing addition, then string addition takes place, that is, associativity of addition-
-         * is left to right, and hence integers are added to a string first producing a string, and string objects-
+         * If user writes something before doing addition, then string addition takes place, that is, associativity of addition
+         * is left to right, and hence integers are added to a string first producing a string, and string objects
          * concatenate when using +.
          * Therefore it can create unwanted results.
          */
