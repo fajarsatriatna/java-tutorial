@@ -70,7 +70,6 @@ class Woman extends Human implements Period{
 
 }
 
-
 /**
  * Period interface is designed to implement abstract method.
  */
