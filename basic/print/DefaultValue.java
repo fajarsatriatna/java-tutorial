@@ -1,7 +1,7 @@
 /**
  * DefaultValue class describes what default value of data types is.
  * <p>
- * When a variable is declared but not initialized, it is assigned a default valuebased on its data type.
+ * When a variable is declared but not initialized, it is assigned a default value based on its data type.
  * The default values for the primitive data types in Java are as follows:
  * <ul>
  * <li>byte: 0</li>
@@ -18,7 +18,7 @@
  * if the variable is not explicitly initialized with a value.
  * If a variable is initialized with a value, that value will be used instead of the default.
  * <p>
- * There would have been a problem if age and others are not class variables
+ * There would have been a problem if age and others are not declared inside of class
  * as the compiler never assigns default values to uninitialized local variables
  * and it causes an error when local variables have never been initialized.
  * 

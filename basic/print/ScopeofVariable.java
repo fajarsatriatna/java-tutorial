@@ -66,6 +66,7 @@ public class ScopeofVariable {
         
         /*
         1.  At first, for-loop statement is set. Variable named d is initialized afterwards.
+            Throwing an error: cannot find symbol.
             for (int d = 1; d <= 10; ++d)
                 System.out.println(d);
 

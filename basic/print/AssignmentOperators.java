@@ -4,6 +4,7 @@
  * Compound statement is a statement to make operation become shorter.
  * There are assignment operators including:
  * <ul>
+ * <li>+= operator is used to add value. it is the same as a = a + 3</li>
  * <li>-= operator is used to subtract value. it is the same as a = a - 3</li>
  * <li>*= operator is used to multiply value. it is the same as a = a * 4</li>
  * <li>/= operator is used to divide value. it is the same as a = a / 2</li>

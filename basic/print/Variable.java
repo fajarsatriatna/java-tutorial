@@ -114,7 +114,9 @@ class Employee {
     }
     
     /**
-     * Gets value of this <code>hobby</code> variable. 
+     * Gets value of this <code>hobby</code> variable.
+     * 
+     * @return  value of hobby.
      */
     public String getHobby() {
         return this.hobby;
