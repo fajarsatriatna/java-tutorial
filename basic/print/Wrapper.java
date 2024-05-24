@@ -74,5 +74,10 @@ public class Wrapper {
         Long balance = 100000000000L;
 
         System.out.println(balance.longValue());
+
+        String age = "26";
+        int realAge = Integer.parseInt(age);
+
+        System.out.println(realAge);
     }
 }
