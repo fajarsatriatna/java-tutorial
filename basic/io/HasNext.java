@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 /**
  * HasNext class helps user identify the use of this method.
