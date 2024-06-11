@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"HasNext"},{"p":"<Unnamed>","l":"HasNextTokens"},{"p":"<Unnamed>","l":"ReadString"},{"p":"<Unnamed>","l":"ReadStringWithScanner"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"HasNext"},{"p":"<Unnamed>","l":"HasNextLine"},{"p":"<Unnamed>","l":"HasNextTokens"},{"p":"<Unnamed>","l":"ReadString"},{"p":"<Unnamed>","l":"ReadStringWithScanner"}];updateSearchResults();

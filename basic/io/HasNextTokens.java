@@ -35,13 +35,13 @@ public class HasNextTokens {
         String str = new StringBuilder()
         .append("arsenal:\tchelsea:\nliverpool:")
         .append("\nbayern:\n\n\n\ninter:\t         ")
-        .append("         benfica:\t\tbarca:")
-        .append("    1:  8.2:   ")
-        .append("\t\t")
-        .append("\n\n\n\n\n\n")
+        .append("         benfica:milan:leverkusen\t\tbarca:")
+        .append("madrid\t\t\t\tmu\n\t\t")
         .toString();
 
         Scanner sc = new Scanner(str);
+
+        int line = 0;
 
         while(sc.hasNext()) {
             String val = sc.next();
@@ -54,7 +54,7 @@ public class HasNextTokens {
             if ("inter:".equals(val))
                 sc.useDelimiter(":|\\s+");
 
-            System.out.println(val);
+            System.out.println(String.format("%d | %s", ++line, val));
         }
         sc.close();
     }

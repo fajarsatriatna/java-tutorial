@@ -37,6 +37,8 @@ public class HasNext {
 
         Scanner sc = new Scanner(str);
 
+        int line = 0;
+
         /**
          * This method returns true if input has tokens.
          */
@@ -45,7 +47,7 @@ public class HasNext {
             /**
              * This method returns true if token is integer.
              */
-            System.out.println(sc.hasNextInt());
+            System.out.print(String.format("%d | %b\t", ++line, sc.hasNextInt()));
 
             /**
              * This method gets the current value.
