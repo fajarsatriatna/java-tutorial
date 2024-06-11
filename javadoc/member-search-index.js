@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"<Unnamed>","c":"WhatIfElse","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"WhatIfElse","l":"WhatIfElse()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"<Unnamed>","c":"GuardClauses","l":"GuardClauses()","u":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"GuardClauses","l":"main(String[])","u":"main(java.lang.String[])"}];updateSearchResults();
